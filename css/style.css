@@ -1,0 +1,158 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container .header{  
+    height: 60px;
+    background-color: brown;
+    border: 1px solid ;
+}
+.container .header h1{
+    color: rgb(77, 188, 17);
+    text-shadow:-6px -2px 2px #CECBC8 ;
+    margin-left: 20px;
+    line-height: 60px;
+}
+nav .menu{
+    display: flex;
+    position: relative;
+   /* text-align: left; */
+}
+nav .menu li{
+    padding:0 5px;
+}
+nav .menu li:hover{
+    background-color: antiquewhite;
+    
+}
+nav .menu-2{
+    display: none;
+    position: absolute;
+    margin-left: -35px;
+    padding-top: 10px;
+    
+}
+
+nav .menu li:hover .menu-2{
+    display: block;
+    transition: all 0.5s;
+    border-radius: 3px;
+}
+nav .menu li{
+   list-style: none;
+   margin: 0 5px;
+   margin: 0 30px;
+}
+nav .menu li a{
+    text-decoration: none;
+    color: rgb(195, 120, 24);
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.banner{
+    border-top: 4px solid gray;
+}
+.banner img{
+    width: 100%;
+    height: 150px;
+}
+.body{
+    width: 100%;
+    display: flex;
+}
+.body .col-l{
+    width: 70%;
+    margin-left: 50px;
+    background-color: #fcfafa;
+    margin-right: 10px;
+
+}
+.body .col-r{
+    width: 30%;
+}
+
+.body .col-l h2{
+    color: rgb(177, 167, 25);
+    margin-left: 20px;
+}
+
+.body .col-l .text{   
+    display: block;
+     color: rgb(177, 167, 25);
+     padding-right: 60px;
+     margin-bottom: 20px;
+     width: 500px;
+     margin-left: 40px;
+     font-style: italic;
+}
+
+body .col-l form input{
+    margin-left: 60px;
+    margin-bottom: 30px;
+    font-weight: 600px;
+    width: 60%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid gray ;
+}
+
+body .col-l .button{
+    background-color:#83a30f ;
+    margin-left: 60px;
+    padding: 5px;
+    border: none;
+    color: #fff;
+}
+body .col-r{
+    /* margin-right: 10px; */
+}
+body .col-r .links{
+    background-color: beige;
+    border-radius: 5px;
+    width: 230px;
+    height: 170px;
+    margin-bottom: 20px;
+}
+body .col-r .links h2{
+    margin-left: 10px;
+    font-size: 20px;
+    color: brown;
+}
+body .col-r .links ul{
+    /* margin-left: 5px; */
+    margin-left: 50px;
+    margin-top: 20px;
+}
+body .col-r .links li{
+    list-style: square;
+
+}
+body .col-r .text-info{
+    margin-left: 130px;
+    font-size: 20px;
+    color: brown;
+}
+body .col-r .more-info{
+    margin-top: 20px;
+    display:flex;
+    width: 200px;
+}
+body .col-r .more-info img{
+    border: 1px solid;
+    width: 100px;
+    height: 100px;
+}
+
+footer {
+    background-image: url(../img/lá\ xanh\ chành.jpg);
+    height: 40px;
+    line-height: 40px;
+}
+footer p{
+    text-align: center;
+    color: rgb(95, 67, 30);
+   margin-top: 70px;
+}
